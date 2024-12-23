@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: black;
+    gap: 30px;
+}
+img{
+    width: 22vw;
+    object-fit: cover;
+    object-position: center;
+}
+h1{
+    color: white;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+button{
+    padding: 1.5vw 1.5vw;
+    border-radius: 20px;
+    border: none;
+    background:linear-gradient(to right, rgb(255, 0, 0) , rgb(0, 132, 255)) ;
+    font-size: 1.1vw;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgb(0, 106, 255), 2px 2px 10px rgb(255, 0, 204);
+}
+button:hover{
+    box-shadow: 2px 2px 20px rgb(0, 106, 255), 2px 2px 20px rgb(255, 0, 204);
+
+}

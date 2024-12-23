@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav a{
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav i{
+    cursor: pointer;
+    color:rgb(188, 188, 188);
+
+}
+#home{
+    background-color: aliceblue;
+    padding:250px;
+}
+.services{
+    background-color: aqua;
+    padding:260px;
+}
+.about{
+    background-color: bisque;
+    padding:280px;
+}
+#contact{
+    background-color: blueviolet;
+    padding:90px;
+}
+#portfolio{
+    background-color: red;
+    padding:100px;
+}

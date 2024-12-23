@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.page{
+    padding: 2.5vw;
+    background-color: white;
+}
+.page .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.page .img img{
+    width: 200px;
+    border-radius:10px ;
+}
+.page .profile{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.page .profile img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position:center ;
+    background-color: black;
+    border-radius: 70%;
+}
+.page .profile h1{
+    text-align: end
+}
+.page .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.page .name p{
+    width: 20%;
+    text-align: center;
+}
+.page .line h2{
+    text-align: center;
+}
+.page .followercount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.page .followercount .htag{
+    display: flex;
+    gap: 70px;
+}
+.page .followercount .text{
+    display: flex;
+    gap: 40px;
+   
+}
+.page .followercount .text h3{
+    text-align: center;
+}

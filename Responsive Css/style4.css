@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+}
+
+
+.child{
+    /* height: 50%; */
+    /* width: 50%; */
+    height: 50vh;
+    width: 50vw;
+    background-color: teal;
+}
+
+.font{
+    width: 40%;
+    background-color: #dadada;
+    font-size: 40px;
+}
+h1{
+    font-size: 2em;
+}
+h3{
+    font-size: 1em;
+}
+h2{
+    font-size: 4rem;
+}
